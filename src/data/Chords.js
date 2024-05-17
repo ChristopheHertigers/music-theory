@@ -15,6 +15,9 @@ export const extraNotes = {
     "D-7":    { "thirtheen": 'B' },
     "F#7alt":    { "nine": 'A' },
     "B7alt":    { "nine": 'D' },
+    "E9sus":    { "nine": 'F#' },
+    "G9sus":    { "nine": 'A' },
+    "Eb-13":    { "nine": 'F' },
 }
 
 const getRoot = (chord) => {
@@ -52,6 +55,13 @@ const types = {
         suffix: '7#5',
         getNotes: root => {
             return getInterval(root, [0, 4, 8, 10]);
+        },
+    },
+    'DOMINANT-9-SUS': {
+        name: 'DOMINANT-9-SUS',
+        suffix: '9sus',
+        getNotes: root => {
+            return getInterval(root, [0, 5, 7, 10]);
         },
     },
     'DOMINANT': {
@@ -99,6 +109,13 @@ const types = {
     'MINOR-SIXTH': {
         name: 'MINOR-SIXTH',
         suffix: '-6',
+        getNotes: root => {
+            return getInterval(root, [0, 3, 7, 10]);
+        },
+    },
+    'MINOR-THIRTEENTH': {
+        name: 'MINOR-THIRTEENTH',
+        suffix: '-13',
         getNotes: root => {
             return getInterval(root, [0, 3, 7, 9]);
         },
