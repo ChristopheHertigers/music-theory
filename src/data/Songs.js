@@ -144,8 +144,6 @@ export const SONGS = [
             'G9sus','G9sus','G9sus','G9sus',
             'E9sus','E9sus','E9sus','E9sus',
             'G9sus','G9sus','G9sus','G9sus',
-            'E9sus','E9sus','E9sus','E9sus',
-            'G9sus','G9sus','G9sus','G9sus',
             'F9sus','F9sus','F9sus','F9sus',
             'Eb-13','Eb-13','Eb-13','Eb-13',
             'E9sus','E9sus','E9sus','E9sus',
