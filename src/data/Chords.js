@@ -57,6 +57,13 @@ const types = {
             return getInterval(root, [0, 4, 8, 10]);
         },
     },
+    'DOMINANT-FLAT-9': {
+        name: 'DOMINANT-FLAT-9',
+        suffix: '7b9',
+        getNotes: root => {
+            return getInterval(root, [0, 4, 7, 10]);
+        },
+    },
     'DOMINANT-9-SUS': {
         name: 'DOMINANT-9-SUS',
         suffix: '9sus',

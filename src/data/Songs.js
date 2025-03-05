@@ -150,4 +150,13 @@ export const SONGS = [
             'G9sus','G9sus','G9sus','G9sus',
         ],
     },
+    {
+        title: "Blues for Alice",
+        prefer: [],
+        chords: [
+            'GMaj7',['F#ø7','B7b9'],['E-7','A7'],['D-7','G7'],
+            'C7',['C-7','F7'],['B-7','E7'],['Bb-7','E7'],
+            'A-7','D7',['B-7','E-7'],['A-7','D7'],
+        ],
+    },
 ];
