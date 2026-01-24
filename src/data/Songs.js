@@ -159,4 +159,13 @@ export const SONGS = [
             'A-7','D7',['B-7','E-7'],['A-7','D7'],
         ],
     },
+    {
+        title: "A-minor Blues Lore",
+        prefer: [],
+        chords: [
+            'B-7','B-7','B-7','B-7',
+            'E-7','E-7','B-7','B-7',
+            'G7','F#7','B-7','F#7',
+        ],
+    },
 ];
