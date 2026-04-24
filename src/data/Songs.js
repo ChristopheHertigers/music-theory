@@ -45,8 +45,8 @@ export const SONGS = [
         title: "Jazz Blues",
         prefer: [],
         chords: [
-            'G7', ['C7','C#7'], 'G7', 'G7',
-            'C7', 'C#7', 'G7', 'E7',
+            'G7', ['C7','C#o'], 'G7', 'G7',
+            'C7', 'C#o', 'G7', 'E7',
             'A-7', 'D7', ['G7','E7'], ['A-7','D7']
         ],
     },
@@ -166,6 +166,15 @@ export const SONGS = [
             'B-7','B-7','B-7','B-7',
             'E-7','E-7','B-7','B-7',
             'G7','F#7','B-7','F#7',
+        ],
+    },
+    {
+        title: "Minor Blues Alt",
+        prefer: [],
+        chords: [
+            'D-7', 'D-7', 'D-7', 'D-7',
+            'G-7', 'G-7', 'D-7', 'D-7',
+            'Bb7', 'A7', 'D-7', 'A7'
         ],
     },
 ];
